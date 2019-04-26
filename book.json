@@ -1,19 +1,19 @@
 {
-    "title": "GitBook 使用教程",
-    "description": "记录 GitBook 的配置和一些插件的使用",
+    "title": "个人学习记录",
+    "description": "个人学习记录",
     "author": "clickear",
     "output.name": "site",
     "language": "zh-hans",
     "links": {
         "sidebar": {
-            "Home": "http://clickear.top"
+            "Home": "http://gitbook.clickear.top"
         }
     },
     "plugins": [
         "-lunr",
         "-search",
         "-highlight",
-        "livereload",
+        "-livereload",
         "-sharing",
         "search-plus@^0.0.11",
         "simple-page-toc@^0.1.1",
@@ -43,9 +43,7 @@
         "alerts@^0.2.0",
         "include-csv@^0.1.0",
         "puml@^1.0.1",
-        "musicxml@^1.0.2",
         "klipse@^1.2.0",
-        "versions-select@^0.1.1",
         "rss@^3.0.2",
         "graph@^0.1.0",
         "chart@^0.2.0"
@@ -61,10 +59,10 @@
             ]
         },
         "github": {
-            "url": "https://github.com/clickear/gitbook-use"
+            "url": "https://github.com/clickear/gitbook"
         },
         "github-buttons": {
-            "repo": "clickear/gitbook-use",
+            "repo": "clickear/gitbook",
             "types": [
                 "star"
             ],
@@ -88,11 +86,11 @@
             "skipFirstH1": true
         },
         "edit-link": {
-            "base": "https://github.com/zhangjikai/gitbook-use/edit/master",
+            "base": "https://github.com/clickear/gitbook/edit/master",
             "label": "Edit This Page"
         },
         "sitemap-general": {
-            "prefix": "http://gitbook.zhangjikai.com"
+            "prefix": "http://gitbook.clickear.top"
         },
         "anchor-navigation-ex": {
             "isRewritePageTitle": false,
@@ -113,23 +111,14 @@
             "style": "flat"
         },
 
-        "versions": {
-            "options": [
-                {
-                    "value": "http://gitbook.zhangjikai.com",
-                    "text": "v3.2.3"
-                }
-            ]
-        },
-
         "rss": {
-            "title": "GitBook 使用教程",
-            "description": "记录 GitBook 的配置和一些插件的使用",
-            "author": "Jikai Zhang",
-            "feed_url": "http://gitbook.zhangjikai.com/rss",
-            "site_url": "http://gitbook.zhangjikai.com/",
-            "managingEditor": "me@zhangjikai.com",
-            "webMaster": "me@zhangjikai.com",
+            "title": "GitBook 学习记录",
+            "description": "个人学习记录",
+            "author": "clickear",
+            "feed_url": "http://gitbook.clickear.top/rss",
+            "site_url": "http://gitbook.clickear.top/",
+            "managingEditor": "me@clickear.top",
+            "webMaster": "me@clickear.top",
             "categories": [
                 "gitbook"
             ]
