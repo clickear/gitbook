@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[GitBook 使用教程]]></title>
+        <description><![CDATA[记录 GitBook 的配置和一些插件的使用]]></description>
+        <link>http://gitbook.zhangjikai.com/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 26 Apr 2019 01:42:44 GMT</lastBuildDate>
+        <atom:link href="http://gitbook.zhangjikai.com/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[Jikai Zhang]]></author>
+        <managingEditor><![CDATA[me@zhangjikai.com]]></managingEditor>
+        <webMaster><![CDATA[me@zhangjikai.com]]></webMaster>
+        <category><![CDATA[gitbook]]></category>
+        <item>
+            <title><![CDATA[学习汇总]]></title>
+            <link>http://gitbook.zhangjikai.com/</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[计算机]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[语言]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Java]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/java/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/java/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[基础]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/java/基础/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/java/基础/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[并发]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/java/并发/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/java/并发/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[JVM]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/java/JVM/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/java/JVM/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[JAVA8]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/java/java8/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/java/java8/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[代码优化]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/java/代码优化/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/java/代码优化/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[SpringBoot]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/java/SpringBoot/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/java/SpringBoot/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[shell]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/语言/shell/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/语言/shell/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[网络]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/网络/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/网络/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[https]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/网络/https/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/网络/https/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[http协议]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/网络/http协议/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/网络/http协议/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[操作系统]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/操作系统/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/操作系统/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[数据结构与算法]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/数据结构与算法/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/数据结构与算法/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[数据库]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/数据库/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/数据库/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[工具]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/工具/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/工具/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[git]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/工具/git/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/工具/git/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Docker]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/工具/Docker/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/工具/Docker/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[系统设计]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/系统设计/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/系统设计/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[设计模式]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/系统设计/设计模式/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/系统设计/设计模式/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[常用框架]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/系统设计/常用框架/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/系统设计/常用框架/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[网站架构]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/系统设计/网站架构/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/系统设计/网站架构/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[软件底层]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/系统设计/软件底层/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/系统设计/软件底层/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[源码学习]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/源码学习/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/源码学习/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Spring]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/源码学习/Spring/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/源码学习/Spring/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Duobo]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/源码学习/Duobo/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/源码学习/Duobo/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Mybatis-plus]]></title>
+            <link>http://gitbook.zhangjikai.com/计算机/源码学习/Mybatis-plus/README.html</link>
+            <guid isPermaLink="true">http://gitbook.zhangjikai.com/计算机/源码学习/Mybatis-plus/README.html</guid>
+            <dc:creator><![CDATA[Jikai Zhang]]></dc:creator>
+        </item>
+    </channel>
+</rss>
