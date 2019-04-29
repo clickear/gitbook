@@ -25,4 +25,4 @@ git commit -a -m "Update docs"
 git push origin gh-pages
 
 # checkout to the master branch
-git checkout master:
+git checkout master
