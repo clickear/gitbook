@@ -48,7 +48,7 @@
 - 部署admin
 
   ```dockerfile
-  docker run --restart=always --expose 8080 -p 8080:8080 -e VIRTUAL_HOST=clickear.top,admin.clickear.top -e VIRTUAL_PORT=8080 -e LETSENCRYPT_HOST=clickear.top registry.cn-shenzhen.aliyuncs.com/clickear/renren_security:v0.1
+  docker run -d --restart=always --expose 8080 -p 8080:8080 -e VIRTUAL_HOST=clickear.top,admin.clickear.top -e VIRTUAL_PORT=8080 -e LETSENCRYPT_HOST=clickear.top registry.cn-shenzhen.aliyuncs.com/clickear/renren_security:v0.2
   ```
 
 - 部署gitbook
@@ -67,3 +67,11 @@
   ```
 
   
+
+```dockerfile
+docker run -d -p 8042:80 --name nextcloud -e VIRTUAL_HOST=explore.clickear.top  -e LETSENCRYPT_HOST=explore.clickear.top nextcloud
+```
+
+```bash
+docker run --name static-nginx -v /data/nginx:/usr/share/nginx/html:ro -d -p 9122:80 nginx
+```
