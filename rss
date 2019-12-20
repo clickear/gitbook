@@ -4,7 +4,7 @@
         <description><![CDATA[个人学习记录]]></description>
         <link>http://gitbook.clickear.top/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Apr 2019 06:14:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Dec 2019 08:33:49 GMT</lastBuildDate>
         <atom:link href="http://gitbook.clickear.top/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[clickear]]></author>
         <managingEditor><![CDATA[me@clickear.top]]></managingEditor>
@@ -30,6 +30,7 @@
         </item>
         <item>
             <title><![CDATA[Java]]></title>
+            <description><![CDATA[资源下载]]></description>
             <link>http://gitbook.clickear.top/计算机/语言/java/README.html</link>
             <guid isPermaLink="true">http://gitbook.clickear.top/计算机/语言/java/README.html</guid>
             <dc:creator><![CDATA[clickear]]></dc:creator>
@@ -72,8 +73,15 @@
         </item>
         <item>
             <title><![CDATA[shell]]></title>
+            <description><![CDATA[[TOC]]]></description>
             <link>http://gitbook.clickear.top/计算机/语言/shell/README.html</link>
             <guid isPermaLink="true">http://gitbook.clickear.top/计算机/语言/shell/README.html</guid>
+            <dc:creator><![CDATA[clickear]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[go]]></title>
+            <link>http://gitbook.clickear.top/计算机/语言/go/README.html</link>
+            <guid isPermaLink="true">http://gitbook.clickear.top/计算机/语言/go/README.html</guid>
             <dc:creator><![CDATA[clickear]]></dc:creator>
         </item>
         <item>
@@ -168,6 +176,7 @@
         </item>
         <item>
             <title><![CDATA[Spring]]></title>
+            <description><![CDATA[spring overview]]></description>
             <link>http://gitbook.clickear.top/计算机/源码学习/Spring/README.html</link>
             <guid isPermaLink="true">http://gitbook.clickear.top/计算机/源码学习/Spring/README.html</guid>
             <dc:creator><![CDATA[clickear]]></dc:creator>
