@@ -6,3 +6,4 @@ _book/
 *.edx
 .DS_Store
 node_modules/
+*.pdf

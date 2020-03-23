@@ -26,6 +26,8 @@
         * [常用框架](计算机/系统设计/常用框架/README.md)
         * [网站架构](计算机/系统设计/网站架构/README.md)
         * [软件底层](计算机/系统设计/软件底层/README.md)
+        * [高可用](计算机/系统设计/高可用/README.md)
+            * [MQ](计算机/系统设计/高可用/MQ/README.md)
     * [源码学习](计算机/源码学习/README.md)
         * [Spring](计算机/源码学习/Spring/README.md)
         * [Duobo](计算机/源码学习/Duobo/README.md)

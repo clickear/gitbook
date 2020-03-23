@@ -56,7 +56,7 @@
 - 部署admin
 
   ```dockerfile
-  docker run -d --restart=always --expose 8080 -p 8080:8080 -e VIRTUAL_HOST=clickear.top,admin.clickear.top -e VIRTUAL_PORT=8080 -e LETSENCRYPT_HOST=clickear.top registry.cn-shenzhen.aliyuncs.com/clickear/renren_security:v0.2
+  docker run -d --restart=always --expose 8080 -p 8080:8080 -e VIRTUAL_HOST=admin.clickear.top -e VIRTUAL_PORT=8080 -e LETSENCRYPT_HOST=admin.clickear.top --name admin registry.cn-shenzhen.aliyuncs.com/clickear/renren_security:v0.2
   ```
 
 - 部署gitbook
@@ -83,3 +83,44 @@ docker run -d -p 8042:80 --name nextcloud -e VIRTUAL_HOST=explore.clickear.top  
 ```bash
 docker run --name static-nginx -v /data/nginx:/usr/share/nginx/html:ro -d -p 9122:80 nginx
 ```
+
+```
+   docker run --detach \
+   --name xxl-job-admin \
+   --restart=always \
+   -e PARAMS="--spring.datasource.url=jdbc:mysql://112.74.40.80:3306/xxl_job?Unicode=true&characterEncoding=UTF-8 --spring.datasource.username=root --spring.datasource.password=123456" \
+    -p 8097:8080 \
+    --expose 8080 \
+   --env "VIRTUAL_HOST=job.clickear.top" \
+    --env "LETSENCRYPT_HOST=job.clickear.top" \
+    --env "LETSENCRYPT_EMAIL=434647670@qq.com" \
+   -v /data/xxljob:/data/applogs \
+    xuxueli/xxl-job-admin:2.1.2
+```
+
+
+
+  docker run --detach \
+   --name xxl-job-admin \
+   --restart=always \
+   -e PARAMS="--spring.datasource.url=jdbc:mysql://112.74.40.80:3306/xxl_job?Unicode=true&characterEncoding=UTF-8 --spring.datasource.username=root --spring.datasource.password=123456" \
+    -p 8097:8080 \
+    --expose 8080 \
+   --env "VIRTUAL_HOST=job.clickear.top" \
+    --env "LETSENCRYPT_HOST=job.clickear.top" \
+    --env "LETSENCRYPT_EMAIL=434647670@qq.com" \
+    xuxueli/xxl-job-admin:2.1.2
+
+docker run --detach \
+    -p 9123:80 \
+    --expose 80 \
+    --name static-index-nginx \
+    --restart=always \
+    -v /data/nginx/html:/usr/share/nginx/html:rw \
+    --env "VIRTUAL_HOST=clickear.top" \
+    --env "LETSENCRYPT_HOST=clickear.top" \
+    --env "LETSENCRYPT_EMAIL=434647670@qq.com" \
+    nginx
+
+
+
