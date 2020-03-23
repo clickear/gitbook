@@ -2,6 +2,7 @@
 *.tmp
 .idea/
 _book/
+*.pdf
 *.swp
 *.edx
 .DS_Store
