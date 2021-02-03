@@ -69,39 +69,3 @@
 }
 ```
 
-
-
-```
-package com.qudian.universe.scm.wms.job;
-
-import com.qudian.universe.scm.wms.service.OmsDeliveryOrderService;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.handler.IJobHandler;
-import com.xxl.job.core.handler.annotation.JobHandler;
-import org.springframework.stereotype.Component;
-
-import javax.annotation.Resource;
-
-/**
- * @author chenruochen@qudian.com
- */
-@Component
-@JobHandler("pickingHandler")
-public class PickingHandler extends IJobHandler {
-
-    @Resource
-    private OmsDeliveryOrderService omsDeliveryOrderService;
-
-    @Override
-    public ReturnT<String> execute(String s) throws Exception {
-
-        omsDeliveryOrderService.pickOrder();
-
-        return SUCCESS;
-    }
-}
-
-
-
-```
-
