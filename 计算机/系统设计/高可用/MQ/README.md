@@ -216,8 +216,6 @@ Consumer的集群规模和队列数成正比，队列越多，Consumer集群可�
 
 # 待学习列表
 
-[starter](http://wiki.qudian.com/pages/viewpage.action?pageId=44248849)
-
 [rocketmq](https://github.com/AobingJava/JavaFamily/blob/master/docs/mq/RocketMQ.md)
 
 [消息队列设计概要](https://zhuanlan.zhihu.com/p/21479556)
